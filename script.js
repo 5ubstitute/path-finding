@@ -155,8 +155,6 @@ canvas.addEventListener("mousedown", function(event) {
 	var position = map.width * Math.floor(event.y / window.innerHeight * map.height) + Math.floor(event.x / window.innerWidth * map.width);
 	switch (event.which) {
 		case 1:
-			console.log(map.states[position], map.states[position - map.width]);
-			/*
 			if (map.states[position] < 2) {
 				savedState = map.states[position] = map.states[position] ^ 1;
 				draw();
@@ -164,7 +162,6 @@ canvas.addEventListener("mousedown", function(event) {
 			else {
 				savedState = undefined;
 			}
-			*/
 			break;
 		case 3:
 			if (map.states[position] === 0) {
