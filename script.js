@@ -56,7 +56,7 @@ void main()
 }
 `]);
 
-var map = new CellMap(100, 100);
+var map = new CellMap(Math.round(144 * screen.width / screen.height), 144);
 var savedPosition;
 var savedState;
 
