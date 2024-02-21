@@ -1,5 +1,5 @@
 # PATH FINDING ALGORITHM
-You can find a running [demo here](https://5ubstitute.github.io/path_finding).
+You can find a running [demo here](https://5ubstitute.github.io/path-finding/).
 
 ## Instructions
 In the simulation you can generate a 2d-Map randomly, run simulation steps in order to build caves and run the path finding algorithm to find the shortest way from one point on the map to another as long as the two are connected by white spaces.
